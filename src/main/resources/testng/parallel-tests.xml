@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="eShopQA Parallel Tests" parallel="classes" thread-count="2">
+    <test name="All Tests Parallel">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.HomePageTest"/>
+        </classes>
+    </test>
+</suite>

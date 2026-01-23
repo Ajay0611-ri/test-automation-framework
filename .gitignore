@@ -1,0 +1,21 @@
+# IDE
+.idea/
+
+# Build output
+target/
+test-output/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+logs/
+screenshots/
+
+# Drivers (except the one you want to keep)
+drivers/*
+!drivers/chromedriver.exe
+
+# Maven wrapper log
+.mvn/wrapper/maven-wrapper.propertiesweiii

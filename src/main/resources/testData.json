@@ -1,0 +1,13 @@
+{
+  "users": {
+    "validUser": {
+      "email": "testuser@example.com",
+      "password": "password123"
+    },
+    "invalidUser": {
+      "email": "wrong@email.com",
+      "password": "wrongpass"
+    }
+  },
+  "products": ["computer", "laptop", "phone"]
+}
