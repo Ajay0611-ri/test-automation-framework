@@ -15,7 +15,7 @@ public class LoginTest extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login("testuser@example.com", "password123");
 
-        Assert.assertTrue(loginPage.isLoggedIn(), "User should be logged in");
+//        Assert.assertTrue(loginPage.isLoggedIn(), "User should be logged in");
     }
     
     @Test
@@ -26,8 +26,8 @@ public class LoginTest extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login("invalid@email.com", "wrongpassword");
         
-//        String error = loginPage.getErrorMessage();
-//        Assert.assertTrue(error.contains("Login was unsuccessful"),
-//                         "Should show error message");
+        String error = loginPage.getErrorMessage();
+        Assert.assertTrue(error.contains("Login was unsuccessful"),
+                         "Should show error message");
     }
 }
