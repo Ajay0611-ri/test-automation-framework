@@ -11,7 +11,7 @@ public class BaseTest {
     @BeforeMethod
     public void setup() {
         driver = DriverFactory.initDriver("chrome");
-        driver.get("https://demowebshop.tricentis.com/");
+        driver.get("https://www.flipkart.com/");
     }
     
     @AfterMethod

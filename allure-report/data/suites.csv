@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jan 23 10:52:22 IST 2026","Fri Jan 23 10:52:22 IST 2026","474","Surefire suite","Surefire test","tests.HomePageTest","tests.HomePageTest","testHomePageLoads","testHomePageLoads",""
-"passed","Fri Jan 23 10:52:28 IST 2026","Fri Jan 23 10:52:29 IST 2026","1208","Surefire suite","Surefire test","tests.HomePageTest","tests.HomePageTest","testSearchProduct","testSearchProduct",""
-"passed","Fri Jan 23 10:52:36 IST 2026","Fri Jan 23 10:52:38 IST 2026","2124","Surefire suite","Surefire test","tests.LoginTest","tests.LoginTest","testInvalidLogin","testInvalidLogin",""
