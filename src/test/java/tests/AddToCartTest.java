@@ -10,6 +10,7 @@ public class AddToCartTest extends BaseTest{
     @Test
     public void testSearchProduct() throws InterruptedException {
         AddToCartPage addToCartPage = new AddToCartPage(driver);
+        addToCartPage.closeLoginPopupIfPresent();
         addToCartPage.searchForProduct("iphone");
 
         FlipkartSearchResultsPage flipkartSearchResultsPage = new FlipkartSearchResultsPage(driver);
