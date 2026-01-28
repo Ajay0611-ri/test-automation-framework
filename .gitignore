@@ -19,3 +19,10 @@ drivers/*
 
 # Maven wrapper log
 .mvn/wrapper/maven-wrapper.propertiesweiii
+
+# Allure reports
+allure-results/
+allure-report/
+
+# CI / temp
+allure-ci/
